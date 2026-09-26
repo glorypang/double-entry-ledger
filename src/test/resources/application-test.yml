@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ledger_test
+    username: root
+    password: 4615
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
